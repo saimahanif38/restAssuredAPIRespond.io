@@ -17,7 +17,7 @@ public class restAssuredApis {
     private String token;
 
     @BeforeClass
-    public void setup() {
+    public void setupBaseURI() {
         // Set base URI for all tests
         baseURI = "https://app.respond.io/";
     }
@@ -52,6 +52,7 @@ public class restAssuredApis {
     @Test(dependsOnMethods = "testLoginPostRequest")
     public void testSecuritySSOGetRequest() {
         // Use the token retrieved in the testLogin method
+    	// We area accessing security SSO page with the help of token and orgid
     	given()
 	    	.header("Authorization", "Bearer " + token)
 	        .header("orgid", "249553")

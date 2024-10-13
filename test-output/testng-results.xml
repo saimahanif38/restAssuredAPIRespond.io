@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-13T18:15:50 PKT" name="Default suite" finished-at="2024-10-13T18:15:52 PKT" duration-ms="2054">
+  <suite started-at="2024-10-13T19:37:59 PKT" name="Default suite" finished-at="2024-10-13T19:38:02 PKT" duration-ms="2549">
     <groups>
     </groups>
-    <test started-at="2024-10-13T18:15:50 PKT" name="Default test" finished-at="2024-10-13T18:15:52 PKT" duration-ms="2054">
+    <test started-at="2024-10-13T19:37:59 PKT" name="Default test" finished-at="2024-10-13T19:38:02 PKT" duration-ms="2549">
       <class name="apiAutomation.restAssuredApis">
-        <test-method is-config="true" signature="setup()[pri:0, instance:apiAutomation.restAssuredApis@48f2bd5b]" started-at="2024-10-13T18:15:50 PKT" name="setup" finished-at="2024-10-13T18:15:51 PKT" duration-ms="130" status="PASS">
+        <test-method is-config="true" signature="setupBaseURI()[pri:0, instance:apiAutomation.restAssuredApis@48f2bd5b]" started-at="2024-10-13T19:37:59 PKT" name="setupBaseURI" finished-at="2024-10-13T19:37:59 PKT" duration-ms="139" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testLoginPostRequest()[pri:0, instance:apiAutomation.restAssuredApis@48f2bd5b]" started-at="2024-10-13T18:15:51 PKT" name="testLoginPostRequest" finished-at="2024-10-13T18:15:52 PKT" duration-ms="1208" status="PASS">
+        </test-method> <!-- setupBaseURI -->
+        <test-method signature="testLoginPostRequest()[pri:0, instance:apiAutomation.restAssuredApis@48f2bd5b]" started-at="2024-10-13T19:37:59 PKT" name="testLoginPostRequest" finished-at="2024-10-13T19:38:01 PKT" duration-ms="1402" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginPostRequest -->
-        <test-method signature="testSecuritySSOGetRequest()[pri:0, instance:apiAutomation.restAssuredApis@48f2bd5b]" started-at="2024-10-13T18:15:52 PKT" name="testSecuritySSOGetRequest" finished-at="2024-10-13T18:15:52 PKT" depends-on-methods="apiAutomation.restAssuredApis.testLoginPostRequest" duration-ms="448" status="PASS">
+        <test-method signature="testSecuritySSOGetRequest()[pri:0, instance:apiAutomation.restAssuredApis@48f2bd5b]" started-at="2024-10-13T19:38:01 PKT" name="testSecuritySSOGetRequest" finished-at="2024-10-13T19:38:01 PKT" depends-on-methods="apiAutomation.restAssuredApis.testLoginPostRequest" duration-ms="475" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSecuritySSOGetRequest -->
-        <test-method signature="testUpdateProfilePutRequest()[pri:0, instance:apiAutomation.restAssuredApis@48f2bd5b]" started-at="2024-10-13T18:15:52 PKT" name="testUpdateProfilePutRequest" finished-at="2024-10-13T18:15:52 PKT" depends-on-methods="apiAutomation.restAssuredApis.testLoginPostRequest" duration-ms="253" status="PASS">
+        <test-method signature="testUpdateProfilePutRequest()[pri:0, instance:apiAutomation.restAssuredApis@48f2bd5b]" started-at="2024-10-13T19:38:01 PKT" name="testUpdateProfilePutRequest" finished-at="2024-10-13T19:38:02 PKT" depends-on-methods="apiAutomation.restAssuredApis.testLoginPostRequest" duration-ms="511" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateProfilePutRequest -->
