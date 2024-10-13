@@ -10,6 +10,8 @@ import static org.hamcrest.Matchers.*;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
 
 public class restAssuredApis {
 
@@ -25,8 +27,10 @@ public class restAssuredApis {
     @Test
     public void testLoginPostRequest() {
         // Create request request body for login
-        String requestBody = "{\"email\":\"saimahanif1938+00@gmail.com\",\"password\":\"Click123#\"}";
-
+    	Map<String, Object> requestBody = new HashMap<String, Object>();
+    	requestBody.put("email", "saimahanif1938+00@gmail.com");
+    	requestBody.put("password", "Click123#");
+    	
         // Send Get request to the login endpoint
         Response loginResponse = given()
                 .contentType(ContentType.JSON)
