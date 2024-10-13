@@ -5,7 +5,9 @@
     <classes>
       <class name="apiAutomation.restAssuredApis">
         <methods>
-          <include name="testDashboardAccess"/>
+          <include name="testLoginPostRequest"/>
+          <include name="setup"/>
+          <include name="testUpdateProfilePutRequest"/>
         </methods>
       </class> <!-- apiAutomation.restAssuredApis -->
     </classes>
